@@ -1,0 +1,26 @@
+git init - initialises a new repository
+
+
+working dir - last state of your project (ls)
+staging area - contains all the files that will be updted to the repository next time you make changes
+once data goes through the repository, it can never be lost
+
+git add -A sends all the files from working dir to the staging area
+git add pankaj.txt sends only that particular file to the staging 
+
+git commit - creates a new snapshot of your project and moves it from staging area to repository (how version control works), saves a new snapshot of the project
+
+git log - lists down all the commits
+git log --oneline - more concise listing of commits
+
+git diff - shows diff between file in the staging area and the working directory
+git status - red: latest change just in the staging area, needs to go to the repository
+             green: added latest change to the repository
+
+
+git - version control system
+github - online platform for collaborating on the same project by commiting to the same repository
+cloning - create a local repository of the remote one
+
+
+shift+ins - copy link
